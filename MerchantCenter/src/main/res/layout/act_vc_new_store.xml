@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.NewStoreActivity">
+<team.asquad.base.widgets.HeaderBar
+    android:id="@+id/mMerchantHeader"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/headerBar_height"
+    app:titleText="新建店铺"
+    />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/mMerchantHeader"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.87"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+        <team.asquad.base.widgets.RountImageView
+            android:id="@+id/mGetMerchantHeadPortrait"
+            android:layout_width="@dimen/offset_70dp"
+            android:layout_height="@dimen/offset_70dp"
+            android:src="@drawable/ic_header"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:civ_border_width = "0dp"
+            app:civ_border_color = "@null"
+            app:civ_round_radius = "5dp"
+            app:civ_shape="rect" />
+        <TextView
+            android:id="@+id/mMerchantStoreNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/font_size_normal_high"
+            android:layout_marginTop="@dimen/offset_25dp"
+            app:layout_constraintTop_toBottomOf="@id/mGetMerchantHeadPortrait"
+            android:text="店铺名称"/>
+
+        <EditText
+            android:id="@+id/mMerchantStoreNameEt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/vendorcenter_roundrect_et_bg_shape"
+            android:hint="请输入商店名称"
+            android:textSize="@dimen/font_size_normal"
+            android:paddingLeft="@dimen/offset_10dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/mMerchantStoreNameTv"
+            app:layout_constraintTop_toBottomOf="@id/mGetMerchantHeadPortrait"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.06"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.7" />
+
+        <TextView
+            android:id="@+id/mMerchantCommodityNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/font_size_normal_high"
+            android:layout_marginTop="@dimen/offset_20dp"
+            app:layout_constraintTop_toBottomOf="@id/mMerchantStoreNameTv"
+            android:text="主营产品"/>
+
+        <EditText
+            android:id="@+id/mMerchantCommodityNameEt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/vendorcenter_roundrect_et_bg_shape"
+            android:hint="请输入主营产品"
+            android:textSize="@dimen/font_size_normal"
+            android:paddingLeft="@dimen/offset_10dp"
+            android:paddingTop="@dimen/offset_10dp"
+            android:gravity="top"
+            app:layout_constraintBaseline_toBaselineOf="@id/mMerchantCommodityNameTv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.7" />
+
+        <TextView
+            android:id="@+id/mMerchantScoppeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/font_size_normal_high"
+            android:layout_marginTop="@dimen/offset_10dp"
+            app:layout_constraintTop_toBottomOf="@id/mMerchantCommodityNameEt"
+            android:text="配送范围"/>
+
+        <EditText
+            android:id="@+id/mMerchantScoppeEt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/vendorcenter_roundrect_et_bg_shape"
+            android:hint="请输入包配送范围"
+            android:textSize="@dimen/font_size_normal"
+            android:paddingLeft="@dimen/offset_10dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/mMerchantScoppeTv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.06"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.7" />
+
+        <TextView
+            android:id="@+id/mMerchantConditionTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/font_size_normal_high"
+            android:layout_marginTop="@dimen/offset_10dp"
+            app:layout_constraintTop_toBottomOf="@id/mMerchantScoppeEt"
+            android:text="配送条件"/>
+
+        <EditText
+            android:id="@+id/mMerchantConditionEt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/vendorcenter_roundrect_et_bg_shape"
+            android:hint="请输入金额"
+            android:textSize="@dimen/font_size_normal"
+            android:paddingLeft="@dimen/offset_10dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/mMerchantConditionTv"
+            app:layout_constraintLeft_toLeftOf="@id/mMerchantScoppeEt"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.06"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_normal_high"
+            android:textColor="@color/common_black"
+            android:text="元 起送"
+            android:layout_marginLeft="@dimen/offset_10dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/mMerchantConditionEt"
+            app:layout_constraintLeft_toRightOf="@id/mMerchantConditionEt"
+            />
+        <TextView
+            android:id="@+id/mMerchantMoblieTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/font_size_normal_high"
+            android:layout_marginTop="@dimen/offset_10dp"
+            app:layout_constraintTop_toBottomOf="@id/mMerchantConditionEt"
+            android:text="手机号码"/>
+
+        <EditText
+            android:id="@+id/mMerchantMoblieEt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/vendorcenter_roundrect_et_bg_shape"
+            android:hint="请输入号码"
+            android:textSize="@dimen/font_size_normal"
+            android:paddingLeft="@dimen/offset_10dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/mMerchantMoblieTv"
+            app:layout_constraintLeft_toLeftOf="@id/mMerchantScoppeEt"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.06"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.4" />
+        <team.asquad.base.widgets.VerifyButton
+            android:id="@+id/mGetVerifyCodeBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/common_blue"
+            android:gravity="center"
+            android:background="@null"
+            android:textSize="@dimen/font_size_normal"
+            android:text="获取验证码"
+            app:layout_constraintBaseline_toBaselineOf="@id/mMerchantMoblieEt"
+            app:layout_constraintLeft_toRightOf="@id/mMerchantMoblieEt"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.28"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.055"
+            />
+
+        <TextView
+            android:id="@+id/mVerifyCodeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/font_size_normal_high"
+            android:layout_marginTop="@dimen/offset_10dp"
+            app:layout_constraintTop_toBottomOf="@id/mGetVerifyCodeBtn"
+            android:text="验证码"/>
+
+        <EditText
+            android:id="@+id/mVerifyCodeEt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/vendorcenter_roundrect_et_bg_shape"
+            android:hint="请输入验证码"
+            android:textSize="@dimen/font_size_normal"
+            android:paddingLeft="@dimen/offset_10dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/mVerifyCodeTv"
+            app:layout_constraintLeft_toLeftOf="@id/mMerchantScoppeEt"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.06"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <Button
+            android:id="@+id/mNewStoreBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/font_size_xtiny"
+            android:background="@drawable/vendorcenter_newsell_btn_selector"
+            android:text="立即开店"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.08"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

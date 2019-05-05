@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_divider_height">2px</dimen>
+    <dimen name="common_divider_width">1px</dimen>
+    <dimen name="common_header_bar_height">50dp</dimen>
+    <dimen name="common_icon_height">60dp</dimen>
+    <dimen name="common_icon_width">60dp</dimen>
+    <dimen name="common_line_height">50dp</dimen>
+    <dimen name="common_margin">15dp</dimen>
+    <dimen name="common_margin_middle">10dp</dimen>
+    <dimen name="common_margin_small">5dp</dimen>
+    <dimen name="common_padding">15dp</dimen>
+    <dimen name="common_padding_middle">10dp</dimen>
+    <dimen name="common_padding_small">5dp</dimen>
+    <dimen name="common_radius">6dp</dimen>
+    <dimen name="common_border_size">1px</dimen>
+
+    <!--字体大小-->
+    <dimen name="font_size_tiny">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_normal">14sp</dimen>
+    <dimen name="font_size_normal_high">16sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_large_high">20sp</dimen>
+
+    <dimen name="font_size_xtiny">20sp</dimen>
+    <dimen name="font_size_xsmall">22sp</dimen>
+    <dimen name="font_size_xnormal">24sp</dimen>
+    <dimen name="font_size_xnormal_high">26sp</dimen>
+    <dimen name="font_xlarge">28sp</dimen>
+    <dimen name="font_xlarge_high">30sp</dimen>
+
+    <dimen name="font_size_xxtiny">32sp</dimen>
+    <dimen name="font_size_xxsmall">34sp</dimen>
+    <dimen name="font_size_xxnormal">36sp</dimen>
+    <dimen name="font_size_xxnormal_high">38sp</dimen>
+    <dimen name="font_xxlarge">40sp</dimen>
+    <dimen name="font_xxlarge_high">42sp</dimen>
+    <!--边距-->
+    <dimen name="offset_160dp">160dp</dimen>
+    <dimen name="offset_150dp">150dp</dimen>
+    <dimen name="offset_140dp">140dp</dimen>
+    <dimen name="offset_130dp">130dp</dimen>
+    <dimen name="offset_120dp">120dp</dimen>
+    <dimen name="offset_110dp">110dp</dimen>
+    <dimen name="offset_100dp">100dp</dimen>
+    <dimen name="offset_90dp">90dp</dimen>
+    <dimen name="offset_80dp">80dp</dimen>
+    <dimen name="offset_70dp">70dp</dimen>
+    <dimen name="offset_60dp">60dp</dimen>
+    <dimen name="offset_50dp">50dp</dimen>
+    <dimen name="offset_40dp">40dp</dimen>
+    <dimen name="offset_35dp">35dp</dimen>
+    <dimen name="offset_30dp">30dp</dimen>
+    <dimen name="offset_25dp">25dp</dimen>
+    <dimen name="offset_20dp">20dp</dimen>
+    <dimen name="offset_18dp">18dp</dimen>
+    <dimen name="offset_15dp">15dp</dimen>
+    <dimen name="offset_10dp">10dp</dimen>
+    <dimen name="offset_8dp">8dp</dimen>
+    <dimen name="offset_4dp">4dp</dimen>
+    <dimen name="offset_5dp">5dp</dimen>
+    <dimen name="offset_2dp">2dp</dimen>
+
+    <dimen name="headerBar_height">50dp</dimen>
+
+
+</resources>

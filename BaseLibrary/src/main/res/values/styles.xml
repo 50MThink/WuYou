@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="android:windowIsTranslucent">true</item>//防止启动闪烁
+    </style>
+    <!-- 横向分隔线 -->
+    <style name="DividerFixedHeight">
+        <item name="android:background">@color/common_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_divider_height</item>
+    </style>
+    <!-- 竖向分隔线 -->
+    <style name="DividerFixedWidth">
+        <item name="android:background">@color/common_divider</item>
+        <item name="android:layout_width">@dimen/common_divider_width</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- 竖向分隔线 带上下间距 -->
+    <style name="DividerFixedWidth.MarginTopBottom" parent="@style/DividerFixedWidth">
+        <item name="android:layout_marginTop">@dimen/common_margin_middle</item>
+        <item name="android:layout_marginBottom">@dimen/common_margin_middle</item>
+    </style>
+
+</resources>

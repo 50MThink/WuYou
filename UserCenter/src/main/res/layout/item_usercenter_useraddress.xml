@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchWrap.Horizontal"
+    android:layout_marginTop="@dimen/offset_15dp"
+    android:layout_marginLeft="@dimen/offset_30dp">
+    <LinearLayout
+        android:id="@+id/mItemAddressLinear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical">
+        <LinearLayout
+            style="@style/WrapWrap.Horizontal">
+            <TextView
+                android:id="@+id/mItemUserCenterForNameTv"
+                style="@style/WrapWrap"
+                android:textSize="@dimen/font_size_normal"
+                android:text="夏浴敏"/>
+            <TextView
+                android:id="@+id/mItemPhoneNumberTv"
+                style="@style/WrapWrap"
+                android:layout_marginLeft="@dimen/offset_10dp"
+                android:textSize="@dimen/font_size_small"
+                android:textColor="@color/act_userCenter_me_grayText_color"
+                android:text="13612374508"
+                />
+        </LinearLayout>
+            <TextView
+                android:id="@+id/ItemAddressTv"
+                style="@style/MatchWrap"
+                android:layout_marginTop="@dimen/offset_2dp"
+                android:textSize="@dimen/font_size_normal"
+                />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="3">
+        <View
+            android:id="@+id/mItemView"
+            android:layout_width="0.2dp"
+            android:layout_height="@dimen/offset_20dp"
+            android:background="@color/common_gray"
+            android:layout_marginLeft="@dimen/offset_25dp"
+            android:layout_marginRight="@dimen/offset_25dp"
+            android:layout_toRightOf="@id/mItemAddressLinear"
+            />
+        <TextView
+            android:id="@+id/mItemEditTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:clickable="true"
+            android:textSize="@dimen/font_size_small"
+            android:textColor="@color/common_dull_gray"
+            android:text="编辑"/>
+    </LinearLayout>
+
+
+</LinearLayout>

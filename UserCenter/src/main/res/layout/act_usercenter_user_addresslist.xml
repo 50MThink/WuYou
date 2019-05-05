@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <team.asquad.base.widgets.HeaderBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/offset_50dp"
+        app:titleText="我的收货地址"
+        app:isShowBack="true"
+        app:isShowRightText="true"
+        app:rightText="添加新地址">
+
+    </team.asquad.base.widgets.HeaderBar>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mUserCenterUserAddressRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

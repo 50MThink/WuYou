@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vc_roundRect_et_bg">#F2F2F2</color>
+    <color name="vc_newsell_unclick_btn_bg">#E8315D</color>
+    <color name="vc_newsell_click_btn_bg">#E5738E</color>
+
+</resources>
