@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="act_userCenter_me_bg_color">#E8315D</color>
+    <color name="act_userCenter_me_grayText_color">#c5c5c5</color>
+    <color name="act_userCenter_me_click_btn_color">#ffca8f</color>
+    <color name="act_userCenter_me_unclick_btn_color">#fe9c2f</color>
+</resources>

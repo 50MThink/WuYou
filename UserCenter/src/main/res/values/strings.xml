@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UserCenter</string>
+    <string name="act_userCenter_userInfo_helpAndService_string">帮助与客服</string>
+</resources>

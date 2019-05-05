@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--状态栏-->
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+    <item name="immersion_status_bar_view" type="id" />
+    <item name="immersion_navigation_bar_view" type="id" />
+
+    <!--图片上传-->
+    <item name="iv_image_show_picker_del" type="id" />
+    <item name="iv_image_show_picker_pic" type="id" />
+</resources>

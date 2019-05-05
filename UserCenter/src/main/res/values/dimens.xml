@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="act_usercenter_user_info_radius">15dp</dimen>
+    
+    <dimen name="intro_textSize">28sp</dimen>
+</resources>
